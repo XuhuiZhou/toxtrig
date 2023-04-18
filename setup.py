@@ -6,7 +6,7 @@ setup(
     description='full set of words that trigger toxicity',
     author='Xuhui Zhou, Maarten Sap',
     author_email='xuhuiz@cs.cmu.edu',
-    url='https://github.com/your_username/your_package_name',
+    url='https://github.com/XuhuiZhou/toxtrig',
     packages=find_packages(),
     install_requires=[
        'setuptools',
