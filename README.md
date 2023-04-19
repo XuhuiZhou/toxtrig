@@ -9,6 +9,14 @@ Toxic Triggers is a Python package that provides access to a dataset of text tri
 - Built with Pandas for easy data manipulation
 - Analyze the text for the presence of toxic triggers
 
+### Taxonomy of Toxic Triggers
+`text_analysis` function returns a dictionary with the following keys:
+- `harmless-minority`: Non-offensive minority identity mentions (NOI)
+- `offensive-minority-reference`: Possibly offensive minority identity mentions (OI)
+- `offensive-not-minority`: Possibly offensive non-identity mentions (ONI)
+Please refer to our [paper](https://aclanthology.org/2021.eacl-main.274.pdf) for more details.
+
+
 ## Installation
 
 To install the package, you can use `pip install toxicTrig`
