@@ -52,7 +52,7 @@ total_tokens = sum([len(t.split()) for t in text])
 print("Total tokens in text: ", total_tokens)
 ```
 
-# Contribution
+## Contribution
 ### Install dev options
 ```bash
 pip install -e ".[dev]"
@@ -66,7 +66,7 @@ pre-commit install
 Run `pytest` to make sure all tests pass (this will ensure dynamic typing passed with beartype) and `mypy --strict .` to check static typing.
 (You can also run `pre-commit run --all-files` to run all checks)
 
-# Citation
+## Citation
 If you use this package in your research, please cite the following paper:
 
 ```bibtex
@@ -78,8 +78,8 @@ If you use this package in your research, please cite the following paper:
 }
 ```
 
-# License
+## License
 This package is released under the MIT License. See the LICENSE file for more details.
 
-# Credits
+## Credits
 This package was developed by Xuhui Zhou and Maarten Sap.
