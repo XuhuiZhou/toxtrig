@@ -53,6 +53,18 @@ pre-commit install
 Run `pytest` to make sure all tests pass (this will ensure dynamic typing passed with beartype) and `mypy --strict .` to check static typing.
 (You can also run `pre-commit run --all-files` to run all checks)
 
+# Citation
+If you use this package in your research, please cite the following paper:
+
+```bibtex
+@inproceedings{zhou-etal-2020-debiasing,
+  title = {Challenges in Automated Debiasing for Toxic Language Detection},
+  author = {Zhou, Xuhui and Sap, Maarten and Swayamdipta, Swabha and Choi, Yejin and Smith, Noah A.},
+  booktitle = {EACL},
+  year = {2021},
+}
+```
+
 # License
 This package is released under the MIT License. See the LICENSE file for more details.
 
