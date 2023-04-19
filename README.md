@@ -1,4 +1,8 @@
 # Toxic Triggers
+[![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://pre-commit.com/)
+<a href="https://github.com/psf/black"><img alt="Code style: black" src="https://img.shields.io/badge/code%20style-black-000000.svg"></a>
+[![Checked with mypy](https://www.mypy-lang.org/static/mypy_badge.svg)](https://mypy-lang.org/)
+[![bear-ified](https://raw.githubusercontent.com/beartype/beartype-assets/main/badge/bear-ified.svg)](https://beartype.readthedocs.io)
 
 Toxic Triggers is a Python package that provides access to a dataset of text triggers that have been categorized as offensive or harmless to minorities. This package can be useful for researchers and developers who want to understand how offensive language can affect marginalized groups and how it can be detected and prevented.
 
