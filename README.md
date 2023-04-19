@@ -14,6 +14,7 @@ Toxic Triggers is a Python package that provides access to a dataset of text tri
 - `harmless-minority`: Non-offensive minority identity mentions (NOI)
 - `offensive-minority-reference`: Possibly offensive minority identity mentions (OI)
 - `offensive-not-minority`: Possibly offensive non-identity mentions (ONI)
+
 Please refer to our [paper](https://aclanthology.org/2021.eacl-main.274.pdf) for more details.
 
 
