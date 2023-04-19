@@ -57,7 +57,7 @@ Run `pytest` to make sure all tests pass (this will ensure dynamic typing passed
 If you use this package in your research, please cite the following paper:
 
 ```bibtex
-@inproceedings{zhou-etal-2020-debiasing,
+@inproceedings{zhou-etal-2021-debiasing,
   title = {Challenges in Automated Debiasing for Toxic Language Detection},
   author = {Zhou, Xuhui and Sap, Maarten and Swayamdipta, Swabha and Choi, Yejin and Smith, Noah A.},
   booktitle = {EACL},
