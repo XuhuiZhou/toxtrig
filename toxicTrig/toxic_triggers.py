@@ -1,10 +1,10 @@
 import pkg_resources
 import pandas as pd
-data_path = pkg_resources.resource_filename('your_package_name', 'data/my_data.csv')
+data_path = pkg_resources.resource_filename('toxicTrig', 'data/word_based_bias_list.csv')
 
-class Toxic_Triggers:
+class toxicTrig:
     def __init__(self):
-        self.name = "Toxic Triggers"
+        self.name = "toxicTrig"
         self.description = "Toxic Triggers"
         self.data = pd.read_csv(data_path)
         self.NOI = self.data[self.data['categorization'] == 'harmless-minority']

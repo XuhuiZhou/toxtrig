@@ -1,9 +1,13 @@
 from setuptools import setup, find_packages
+with open("README.md", "r") as fh:
+    description = fh.read()
 
 setup(
-    name='toxic_triggers',
-    version='0.1',
+    name='toxicTrig',
+    version='0.2',
     description='full set of words that trigger toxicity',
+    long_description=description,
+    long_description_content_type="text/markdown",
     author='Xuhui Zhou, Maarten Sap',
     author_email='xuhuiz@cs.cmu.edu',
     url='https://github.com/XuhuiZhou/toxtrig',
